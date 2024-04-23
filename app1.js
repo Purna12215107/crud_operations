@@ -9,7 +9,7 @@ app.use(express.json());
 // if it is in same folder
 app.use(express.static('./public'));
 
-mongoose.connect('mongodb+srv://jayendrakumar:jayendrakumar@cluster0.washlax.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://purnasaradhi:purnasaradhi@cluster0.washlax.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then(()=>console.log('Connnected to MongoDB'))
 .catch(err=>console.error('Error connecting to MongoDB:',err));
 
